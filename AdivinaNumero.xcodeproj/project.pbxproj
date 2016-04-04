@@ -14,6 +14,7 @@
 		C9563A1D1BBADAD20092E776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9563A1B1BBADAD20092E776 /* LaunchScreen.storyboard */; };
 		C9563A281BBADAD30092E776 /* AdivinaNumeroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9563A271BBADAD30092E776 /* AdivinaNumeroTests.swift */; };
 		C9563A331BBADAD30092E776 /* AdivinaNumeroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9563A321BBADAD30092E776 /* AdivinaNumeroUITests.swift */; };
+		C971709A1BBC5F4800306C86 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97170991BBC5F4800306C86 /* ViewController2.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C9563A2E1BBADAD30092E776 /* AdivinaNumeroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdivinaNumeroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9563A321BBADAD30092E776 /* AdivinaNumeroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdivinaNumeroUITests.swift; sourceTree = "<group>"; };
 		C9563A341BBADAD30092E776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97170991BBC5F4800306C86 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,9 @@
 		C9563A061BBADAD20092E776 = {
 			isa = PBXGroup;
 			children = (
-				C9563A111BBADAD20092E776 /* AdivinaNumero */,
+				C97170991BBC5F4800306C86 /* ViewController2.swift */,
 				C9563A261BBADAD30092E776 /* AdivinaNumeroTests */,
+				C9563A111BBADAD20092E776 /* AdivinaNumero */,
 				C9563A311BBADAD30092E776 /* AdivinaNumeroUITests */,
 				C9563A101BBADAD20092E776 /* Products */,
 			);
@@ -257,6 +260,7 @@
 			files = (
 				C9563A151BBADAD20092E776 /* ViewController.swift in Sources */,
 				C9563A131BBADAD20092E776 /* AppDelegate.swift in Sources */,
+				C971709A1BBC5F4800306C86 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +485,7 @@
 				C9563A391BBADAD30092E776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9563A3A1BBADAD30092E776 /* Build configuration list for PBXNativeTarget "AdivinaNumeroTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				C9563A3C1BBADAD30092E776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9563A3D1BBADAD30092E776 /* Build configuration list for PBXNativeTarget "AdivinaNumeroUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				C9563A3F1BBADAD30092E776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
